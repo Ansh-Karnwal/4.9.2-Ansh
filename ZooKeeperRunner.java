@@ -12,18 +12,20 @@ public class ZooKeeperRunner {
    Tiger tiger = new Tiger("meat", true, 17.0);
    tiger.swim();
    tiger.huntAlone();
-   //step 10
+   //step 9-10 Tiger to Feline to Animal
    tiger.growl();
    tiger.eat();
    tiger.isNocturnal();
+   //step 23
+   //define a no arg constructor for feline
    Tiger tiger2 = new Tiger();
    Elephant elephant2 = new Elephant();
-   //step 25
+   //step 26, no arg constructor called the Object class's instructor, program would not run because JVM could not follow class constructor hiearchy to object
    Gorilla gorilla = new Gorilla();
    //step 27
    Giraffe giraffe = new Giraffe("leaves", false, 25.0);
    giraffe.eat();
-   //step 28
+   //step 28 hippo successfuly initalized
    Hippo hippo = new Hippo();
    hippo.eat();
    Penguin penguin = new Penguin();

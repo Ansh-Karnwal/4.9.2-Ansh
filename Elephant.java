@@ -1,5 +1,6 @@
 public class Elephant extends Animal {
   public Elephant(String food, boolean nocturnal, double aveLifeSpan) {
+    //step 19 did not call the animal consturctor so the variables were not initialized
     super(food, nocturnal, aveLifeSpan);
     System.out.println("An elephant arrives.");
   }
